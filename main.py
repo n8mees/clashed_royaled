@@ -2,6 +2,9 @@ from bd.conexion import crBD
 from bd.modelos.modelos import Carta, UpdateCarta
 from fastapi import FastAPI
 
+#pip install fastapi[all]
+#pip install pymongo
+
 app = FastAPI()
 
 def getCartas():
